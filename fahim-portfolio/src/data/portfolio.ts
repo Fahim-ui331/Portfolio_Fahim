@@ -1,6 +1,7 @@
+import { Bot } from "lucide-react";
 import type { IconType } from "react-icons";
 import seatBooking from "../assets/seatbooking.png";
-
+import { Clapperboard } from "lucide-react";
 
 import {
   SiReact,
@@ -13,6 +14,10 @@ import {
   SiPython,
   SiGithub,
   SiFigma,
+  SiBootstrap,
+  SiTypescript,
+  SiNodedotjs,
+  SiVite,  
 } from "react-icons/si";
 import { FaFilm, FaVideo } from "react-icons/fa";
 import {
@@ -22,6 +27,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaEnvelope,
+
 } from "react-icons/fa";
 
 export const profile = {
@@ -70,6 +76,9 @@ export const skillGroups: {
       { name: "HTML", icon: SiHtml5 },
       { name: "CSS", icon: SiCss },
       { name: "Tailwind", icon: SiTailwindcss },
+      { name: "Bootstrap", icon: SiBootstrap },
+      { name: "TypeScript", icon: SiTypescript },
+      { name: "Vite", icon: SiVite },
     ],
   },
   {
@@ -79,6 +88,7 @@ export const skillGroups: {
       { name: "PHP", icon: SiPhp },
       { name: "SQL", icon: SiMysql },
       { name: "Python", icon: SiPython },
+      { name: "Node.js", icon: SiNodedotjs },
     ],
   },
   {
@@ -87,8 +97,10 @@ export const skillGroups: {
     items: [
       { name: "GitHub", icon: SiGithub },
       { name: "After Effects", icon: FaFilm },
-      { name: "Premiere Pro", icon: FaVideo },
+      { name: "Canva", icon: FaVideo },
       { name: "Figma", icon: SiFigma },
+      { name: "ChatGPT (AI)", icon: Bot },
+      { name: "CapCut", icon: Clapperboard },
     ],
   },
 ];
