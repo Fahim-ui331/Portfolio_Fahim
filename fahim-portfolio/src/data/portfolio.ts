@@ -114,7 +114,6 @@ export const education = [
     degree: "B.Sc. in Computer Science & Engineering",
     period: "2021 – 2026",
     status: "Final Year",
-    courses: ["OOP", "Data Structures & Algorithms", "Database Systems", "Software Engineering"],
   },
 ];
 
