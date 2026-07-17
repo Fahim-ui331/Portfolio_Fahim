@@ -548,7 +548,16 @@ function Education() {
             </span>
             <div className="rounded-3xl border border-border/70 bg-card/60 p-6 soft-shadow backdrop-blur">
               <div className="flex flex-wrap items-center gap-3">
-                <h3 className="font-display text-xl font-semibold">{e.school}</h3>
+                <h3 className="font-display text-xl font-semibold">
+  <a
+    href={e.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition-colors duration-300 hover:text-primary hover:underline underline-offset-4"
+  >
+    {e.school}
+  </a>
+</h3>
                 <span className="rounded-full bg-primary/15 px-3 py-1 text-xs text-primary">
                   {e.status}
                 </span>

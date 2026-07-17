@@ -1,6 +1,7 @@
 import { Bot } from "lucide-react";
 import type { IconType } from "react-icons";
 import seatBooking from "../assets/seatbooking.png";
+import hospital from "../assets/hospital.png";
 import { Clapperboard } from "lucide-react";
 
 import {
@@ -108,6 +109,7 @@ export const skillGroups: {
 export const education = [
   {
     school: "United International University",
+    url: "https://www.uiu.ac.bd/",
     degree: "B.Sc. in Computer Science & Engineering",
     period: "2021 – 2026",
     status: "Final Year",
@@ -150,13 +152,14 @@ export const projects = [
     repo: "https://github.com/Fahim-ui331/Online-Seat-booking",
   },
   {
-    name: "PlantIQ IoT",
-    description:
-      "Smart plant monitoring dashboard visualising live sensor data with beautiful charts and alerts.",
-    stack: ["React", "IoT", "Node"],
-    demo: "#",
-    repo: "#",
-  },
+  name: "Hospital Management System",
+  description:
+    "A full-featured Hospital Management System designed to simplify patient registration, appointment scheduling, doctor management, and medical record tracking with a secure Firebase backend and responsive interface.",
+  stack: ["React", "Express", "Node.js", "MySQL", "Bootstrap"],
+  image: hospital,
+  demo: "https://hospital-management-system-lyart.vercel.app/",
+  repo: "https://github.com/Fahim-ui331/hospital-management-system",
+},
   {
     name: "Cinematic Portfolio Engine",
     description:
