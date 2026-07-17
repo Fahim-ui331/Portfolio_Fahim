@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 import profileImage from "../assets/profile.jpg";
 import profileImage2 from "../assets/profile2.png";
 import seatBookingImage from "../assets/seatbooking.png";
+import chillox from "../assets/chillox.png";
 import {
   ArrowUpRight,
   Download,

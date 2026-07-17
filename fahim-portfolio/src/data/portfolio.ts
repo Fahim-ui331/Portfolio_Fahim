@@ -2,6 +2,7 @@ import { Bot } from "lucide-react";
 import type { IconType } from "react-icons";
 import seatBooking from "../assets/seatbooking.png";
 import hospital from "../assets/hospital.png";
+import chillox from "../assets/chillox.png";
 import { Clapperboard } from "lucide-react";
 
 import {
@@ -161,13 +162,14 @@ export const projects = [
   repo: "https://github.com/Fahim-ui331/hospital-management-system",
 },
   {
-    name: "Cinematic Portfolio Engine",
-    description:
-      "Reusable motion-first portfolio system with smooth scroll, magnetic UI, and cinematic reveals.",
-    stack: ["React", "Framer Motion", "Lenis"],
-    demo: "#",
-    repo: "#",
-  },
+  name: "Chillox Restaurant Website",
+  description:
+    "A modern and responsive restaurant website inspired by the Chillox brand, featuring an interactive menu, promotional sections, smooth navigation, and a visually engaging user experience.",
+  stack: ["HTML", "CSS", "JavaScript"],
+  image: chillox,
+  demo: "https://chillox-website.vercel.app/",
+  repo: "https://github.com/Fahim-ui331/chillox_website",
+},
 ];
 
 export const creative = [
