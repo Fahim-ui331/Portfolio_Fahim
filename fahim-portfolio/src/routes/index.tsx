@@ -327,11 +327,13 @@ function Hero() {
               <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
             <a
-              href={profile.cvUrl}
-              className="font-button inline-flex items-center gap-2 rounded-full border border-border/70 bg-card/60 px-6 py-3 text-sm font-semibold backdrop-blur transition-colors hover:bg-muted"
-            >
-              <Download className="h-4 w-4" />
-              Download CV
+             href={profile.cvUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-button inline-flex items-center gap-2 rounded-full border border-border/70 bg-card/60 px-6 py-3 text-sm font-semibold backdrop-blur transition-colors hover:bg-muted"
+        >
+            <Download className="h-4 w-4" />
+            Download CV
             </a>
           </motion.div>
 
