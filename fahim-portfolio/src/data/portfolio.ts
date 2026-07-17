@@ -32,7 +32,7 @@ export const profile = {
   bio: "Crafting cinematic web experiences.",
   email: "rjfahim75@gmail.com",
   phone: "+880 1972997381",
-  cvUrl: "cv/Md Fahim Hosen - CV.pdf",
+  cvUrl: "public/cv/Md Fahim Hosen - CV.pdf",
 };
 
 export const socials: { name: string; url: string; icon: IconType }[] = [
