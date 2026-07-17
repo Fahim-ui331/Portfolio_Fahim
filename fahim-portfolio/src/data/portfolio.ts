@@ -114,6 +114,7 @@ export const education = [
     degree: "B.Sc. in Computer Science & Engineering",
     period: "2021 – 2026",
     status: "Final Year",
+    courses: ["#"],
   },
 ];
 
