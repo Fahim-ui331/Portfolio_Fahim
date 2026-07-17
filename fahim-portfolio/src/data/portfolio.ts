@@ -177,13 +177,13 @@ export const creative = [
     title: "2D Animation",
     description: "Character-driven short animations with a cinematic tone.",
     icon: FaYoutube,
-    url: "#",
+    url: "https://www.facebook.com/DarkRepository/",
   },
   {
     title: "Anime Content",
     description: "Curated edits and story recaps for anime communities.",
-    icon: FaInstagram,
-    url: "#",
+    icon: FaFacebook,
+    url: "https://www.facebook.com/fahim.hosen.9678",
   },
   {
     title: "Motion Graphics",
